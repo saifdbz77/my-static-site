@@ -7,8 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>It updates automatically! 🚀</p>
+
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+
+  <main class="hero">
+    <div class="badge">🚀 Live &amp; auto-deploying</div>
+    <h1>Hello, <span class="gradient-text">world!</span></h1>
+    <p class="subtitle">Deployed automatically via GitHub Actions — every push, live in seconds.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Fast</h3>
+        <p>Builds and deploys in under a minute.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔄</div>
+        <h3>Automatic</h3>
+        <p>Push to main, watch it go live.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Yours</h3>
+        <p>Fully customizable, zero servers.</p>
+      </div>
+    </div>
+
+    <button class="cta" id="ctaBtn">Click me ✨</button>
+    <p class="click-msg" id="clickMsg"></p>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
